@@ -1,0 +1,31 @@
+{
+  "name": "joycon",
+  "version": "3.0.0",
+  "description": "It's joyful.",
+  "main": "index.js",
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "chalk": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.3.0",
+    "enmap": "^0.4.2",
+    "enmap-level": "^1.0.0",
+    "google-assistant": "^0.2.2",
+    "moment": "^2.20.1",
+    "moment-duration-format": "^2.2.1",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0",
+    "snekfetch": "^3.6.3",
+    "superagent": "^3.8.2",
+    "twitter": "^1.7.1",
+    "urban": "^0.3.1",
+    "webdict": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "honorsea",
+  "license": "ISC"
+}
