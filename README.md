@@ -4,21 +4,21 @@ joycon is an interactive Discord bot! It has sweet custom cmds in it. This veris
 
 ### Based on;
 
-[anidiots.guide](anidiots.guide) - A simple guide to make your own Discord bot.
+[anidiots.guide](anidiots.guide) - A simple guide to make your own Discord bot.  
 [Node.js](https://nodejs.org) - Main runtime for joycon.
 
 ### You need to install;
 
-discord.js (11.3)
-request
-enmap
-enmap-level
-cheerio
-chalk
-bufferutil
-path
-moment
-moment-duration-format
-querystring
-snekfetch
-urban
+discord.js (11.3)  
+request  
+enmap  
+enmap-level  
+cheerio  
+chalk  
+bufferutil  
+path  
+moment  
+moment-duration-format  
+querystring  
+snekfetch  
+urban  
