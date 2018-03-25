@@ -1,5 +1,6 @@
 {
-  "whatsnew": "Title for changelog.",
-  "newcommands": "List of new commands.",
-  "version": "Bot version."
+  // You can update changelog cmd with directly editing here.
+  "whatsnew": "",
+  "newcommands": "",
+  "version": ""
 }
