@@ -1,7 +1,4 @@
-if (process.version.slice(1).split(".")[0] < 8) throw new Error("Node 8.0.0 or higher is required. Update Node on your system.");
-
 const Discord = require("discord.js");
-
 const { promisify } = require("util");
 const readdir = promisify(require("fs").readdir);
 const Enmap = require("enmap");
@@ -35,7 +32,6 @@ const init = async () => {
   evtFiles.forEach(file => {
     const eventName = file.split(".")[0];
     const event = require(`./events/${file}`);
-    // This line is awesome by the way. Just sayin'.
     client.on(eventName, event.bind(null, client));
     delete require.cache[require.resolve(`./events/${file}`)];
   });
