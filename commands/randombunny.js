@@ -19,7 +19,6 @@ exports.run = async (client, message, args, level) => { // eslint-disable-line n
   var urls = {};
     
   for(let i = 0; i < mainObj.length; i++) {
-  //let url = mainObj[i].data.preview.images[0].source.url;
   let url = mainObj[i].data.url;
   urls[i+1] = url; 
     }
