@@ -22,4 +22,5 @@ moment-duration-format
 querystring  
 snekfetch  
 webdict   
+request  
 memejs  
