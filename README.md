@@ -20,5 +20,5 @@ moment
 moment-duration-format  
 querystring  
 snekfetch  
-urban  
+webdict   
 memejs  
