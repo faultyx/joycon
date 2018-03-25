@@ -6,5 +6,6 @@ module.exports = async client => {
   client.guilds.filter(g => !client.settings.has(g.id)).forEach(g => client.settings.set(g.id, client.config.defaultSettings));
   
   client.user.setActivity('github.com/honorsea/joycon')
+  // Available statuses are: online, idle, dnd, invisible
   client.user.setStatus('online')
 };
