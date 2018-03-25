@@ -22,3 +22,4 @@ moment-duration-format
 querystring  
 snekfetch  
 urban  
+memejs  
